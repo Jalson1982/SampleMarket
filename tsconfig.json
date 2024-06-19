@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "useUnknownInCatchVariables": false,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@translations/*": ["src/translations/*"],
+      "@assets/*": ["src/assets/*"],
+      "@hooks": ["src/hooks"],
+      "@utils": ["src/utils"],
+      "@store": ["src/store/index"],
+      "@navigation": ["src/navigation/index"],
+      "@theme": ["src/theme/index"],
+      "@components": ["src/components/index"],
+      "@features/*": ["./src/features/*"],
+      "@environment": ["./src/environment"],
+      "@types": ["./src/types"],
+      "@lib": ["./src/lib"],
+      "@services": ["./src/services"],
+    }
+  },
+  "typeRoots": ["src/types/custom_types", "node_modules/@types"],
+  "extends": "@react-native/typescript-config/tsconfig.json"
+}

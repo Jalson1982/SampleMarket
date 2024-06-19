@@ -1,0 +1,18 @@
+{
+    "ip_address": "IP address",
+    "location": "Location",
+    "timezone": "Timezone",
+    "country": "Country",
+    "region": "Region",
+    "zip_code": "Zip code",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "continent": "Continent",
+    "check_ip_label": "Check IP",
+    "search_box_label": "Search for IP address",
+    "transaction_date_label": "Transaction date:",
+    "currency_label": "Currency:",
+    "quantity_label": "Quantity:",
+    "price_label": "Price:"
+  }
+  
